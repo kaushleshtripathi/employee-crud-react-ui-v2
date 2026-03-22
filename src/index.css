@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: radial-gradient(1200px 600px at 10% -10%, #1e293b 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #0f766e 0%, transparent 50%),
+    #0b0f14;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: radial-gradient(1000px 500px at 0% 0%, #e0f2fe 0%, transparent 55%),
+      radial-gradient(800px 400px at 100% 0%, #ccfbf1 0%, transparent 50%),
+      #f1f5f9;
+  }
+}
+
+#root {
+  min-height: 100%;
+}
